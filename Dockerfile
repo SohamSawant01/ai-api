@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install fastapi uvicorn google-genai
+RUN pip install fastapi uvicorn google-genai python-dotenv
 
 EXPOSE 8000
 
